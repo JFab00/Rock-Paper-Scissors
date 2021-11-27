@@ -1,0 +1,97 @@
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojResolveAssemblyReference.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.Cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CoreCompileInputs.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\dPagani\source\repos\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormPartita.resources
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojResolveAssemblyReference.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormPartita.resources
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.Cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CoreCompileInputs.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+E:\Scuola\tdp\PiattaformaGioco\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\giova\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormStats.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe.config
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\bin\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\bin\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormGame.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormMenu.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.FormStats.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.Login.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.Properties.Resources.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.Register.resources
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.GenerateResource.cache
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.exe
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.pdb
+C:\Users\Fabian\Desktop\RPS\WindowsFormsClient\obj\Debug\WindowsFormsClient.csproj.CoreCompileInputs.cache

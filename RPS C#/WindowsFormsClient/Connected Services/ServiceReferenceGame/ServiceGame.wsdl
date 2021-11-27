@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginResult" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GameUser">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Total_match_played" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Win_match" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Registration_date" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsPlaying" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="Points" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Register">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Logout">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LogoutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LogoutResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PlayButtoned">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PlayButtonedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PlayButtonedResult" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchByUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchByUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMatchByUserResult" type="tns:Match" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Match">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UserList" type="tns:ArrayOfGameUser" />
+          <s:element minOccurs="1" maxOccurs="1" name="Round" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MatchStart" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="MatchFinish" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Winner" type="tns:GameUser" />
+          <s:element minOccurs="0" maxOccurs="1" name="MovesList" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsersList" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfGameUser">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GameUser" nillable="true" type="tns:GameUser" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CercaTipo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CercaTipoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CercaTipoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_move">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="move" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get_moveResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="Game_winner">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Game_winnerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Game_winnerResult" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WinIncrement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WinIncrementResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="TotMIncrement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g" type="tns:GameUser" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TotMIncrementResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapIn">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="LogoutSoapOut">
+    <wsdl:part name="parameters" element="tns:LogoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="PlayButtonedSoapIn">
+    <wsdl:part name="parameters" element="tns:PlayButtoned" />
+  </wsdl:message>
+  <wsdl:message name="PlayButtonedSoapOut">
+    <wsdl:part name="parameters" element="tns:PlayButtonedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchByUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMatchByUser" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchByUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMatchByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="CercaTipoSoapIn">
+    <wsdl:part name="parameters" element="tns:CercaTipo" />
+  </wsdl:message>
+  <wsdl:message name="CercaTipoSoapOut">
+    <wsdl:part name="parameters" element="tns:CercaTipoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get_moveSoapIn">
+    <wsdl:part name="parameters" element="tns:Get_move" />
+  </wsdl:message>
+  <wsdl:message name="Get_moveSoapOut">
+    <wsdl:part name="parameters" element="tns:Get_moveResponse" />
+  </wsdl:message>
+  <wsdl:message name="Game_winnerSoapIn">
+    <wsdl:part name="parameters" element="tns:Game_winner" />
+  </wsdl:message>
+  <wsdl:message name="Game_winnerSoapOut">
+    <wsdl:part name="parameters" element="tns:Game_winnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="WinIncrementSoapIn">
+    <wsdl:part name="parameters" element="tns:WinIncrement" />
+  </wsdl:message>
+  <wsdl:message name="WinIncrementSoapOut">
+    <wsdl:part name="parameters" element="tns:WinIncrementResponse" />
+  </wsdl:message>
+  <wsdl:message name="TotMIncrementSoapIn">
+    <wsdl:part name="parameters" element="tns:TotMIncrement" />
+  </wsdl:message>
+  <wsdl:message name="TotMIncrementSoapOut">
+    <wsdl:part name="parameters" element="tns:TotMIncrementResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceGameSoap">
+    <wsdl:operation name="Login">
+      <wsdl:input message="tns:LoginSoapIn" />
+      <wsdl:output message="tns:LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input message="tns:RegisterSoapIn" />
+      <wsdl:output message="tns:RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:input message="tns:LogoutSoapIn" />
+      <wsdl:output message="tns:LogoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PlayButtoned">
+      <wsdl:input message="tns:PlayButtonedSoapIn" />
+      <wsdl:output message="tns:PlayButtonedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchByUser">
+      <wsdl:input message="tns:GetMatchByUserSoapIn" />
+      <wsdl:output message="tns:GetMatchByUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CercaTipo">
+      <wsdl:input message="tns:CercaTipoSoapIn" />
+      <wsdl:output message="tns:CercaTipoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get_move">
+      <wsdl:input message="tns:Get_moveSoapIn" />
+      <wsdl:output message="tns:Get_moveSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Game_winner">
+      <wsdl:input message="tns:Game_winnerSoapIn" />
+      <wsdl:output message="tns:Game_winnerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WinIncrement">
+      <wsdl:input message="tns:WinIncrementSoapIn" />
+      <wsdl:output message="tns:WinIncrementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TotMIncrement">
+      <wsdl:input message="tns:TotMIncrementSoapIn" />
+      <wsdl:output message="tns:TotMIncrementSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceGameSoap" type="tns:ServiceGameSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlayButtoned">
+      <soap:operation soapAction="http://tempuri.org/PlayButtoned" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchByUser">
+      <soap:operation soapAction="http://tempuri.org/GetMatchByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CercaTipo">
+      <soap:operation soapAction="http://tempuri.org/CercaTipo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_move">
+      <soap:operation soapAction="http://tempuri.org/Get_move" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Game_winner">
+      <soap:operation soapAction="http://tempuri.org/Game_winner" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WinIncrement">
+      <soap:operation soapAction="http://tempuri.org/WinIncrement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TotMIncrement">
+      <soap:operation soapAction="http://tempuri.org/TotMIncrement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceGameSoap12" type="tns:ServiceGameSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap12:operation soapAction="http://tempuri.org/Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap12:operation soapAction="http://tempuri.org/Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap12:operation soapAction="http://tempuri.org/Logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PlayButtoned">
+      <soap12:operation soapAction="http://tempuri.org/PlayButtoned" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchByUser">
+      <soap12:operation soapAction="http://tempuri.org/GetMatchByUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CercaTipo">
+      <soap12:operation soapAction="http://tempuri.org/CercaTipo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get_move">
+      <soap12:operation soapAction="http://tempuri.org/Get_move" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Game_winner">
+      <soap12:operation soapAction="http://tempuri.org/Game_winner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WinIncrement">
+      <soap12:operation soapAction="http://tempuri.org/WinIncrement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TotMIncrement">
+      <soap12:operation soapAction="http://tempuri.org/TotMIncrement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceGame">
+    <wsdl:port name="ServiceGameSoap" binding="tns:ServiceGameSoap">
+      <soap:address location="http://localhost:63648/ServiceGame.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceGameSoap12" binding="tns:ServiceGameSoap12">
+      <soap12:address location="http://localhost:63648/ServiceGame.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

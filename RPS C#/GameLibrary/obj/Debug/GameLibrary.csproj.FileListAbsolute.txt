@@ -1,0 +1,44 @@
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csprojResolveAssemblyReference.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\bin\Debug\GameLibrary.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\giova\Desktop\Nuova cartella\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\giova\Desktop\Nuova cartella\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\giova\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\giova\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\Nuova cartella\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\Nuova cartella\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\RPS\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\RPS\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\RPS\GameLibrary\obj\Debug\GameLibrary.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\RPS\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\Fabian\Desktop\RPS\GameLibrary\obj\Debug\GameLibrary.pdb
+C:\Users\Fabian\Desktop\RPS\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache

@@ -1,0 +1,18 @@
+﻿:) = fatto
+PIATTAFORMA GIOCO SASSOCARTAFORBICE:
+	- login	:)
+	- register :)
+	- cerca avversario :)
+	- form game  :)
+		- tasti selezione mossa	 :)
+		- label con numero partite vinte  :)
+		- si aggiornano le partite vinte  :)
+		- si visualizza il vincitore e il perdente  :)
+	- gestione delle mosse			in classe MATCH	:)
+	- gestione punteggi				in classe MATCH :)
+	- funzione winner()				in classe MATCH :)
+	- timer per sincronizzare le mosse in FormGame  :)
+	- form stats
+		- dettagli dell'utente :)
+		- percentuale di vincita dell'utente :)
+		

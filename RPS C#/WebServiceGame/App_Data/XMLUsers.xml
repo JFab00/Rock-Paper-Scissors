@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <name>admin</name>
+    <surname>admin</surname>
+    <username>admin</username>
+    <password>admin</password>
+    <regdate>2020-03-22T20:05:17.0870718+01:00</regdate>
+    <totmatch>1</totmatch>
+    <winmatch>0</winmatch>
+  </user>
+  <user>
+    <name>lmao</name>
+    <surname>lmao</surname>
+    <username>lmao</username>
+    <password>lmao</password>
+    <regdate>2020-03-22T20:05:25.6442618+01:00</regdate>
+    <totmatch>0</totmatch>
+    <winmatch>0</winmatch>
+  </user>
+  <user>
+    <name>fedo</name>
+    <surname>fedo</surname>
+    <username>fedo</username>
+    <password>fedo</password>
+    <regdate>2020-03-22T20:05:35.2789522+01:00</regdate>
+    <totmatch>0</totmatch>
+    <winmatch>0</winmatch>
+  </user>
+  <user>
+    <name>Cadel</name>
+    <surname>Evans</surname>
+    <username>CadelTheBest</username>
+    <password>intheworld</password>
+    <regdate>2020-03-22T20:15:50.0920122+01:00</regdate>
+    <totmatch>1</totmatch>
+    <winmatch>1</winmatch>
+  </user>
+</users>

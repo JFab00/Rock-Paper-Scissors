@@ -1,0 +1,100 @@
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojResolveAssemblyReference.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CoreCompileInputs.cache
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\dPagani\source\repos\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojResolveAssemblyReference.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CoreCompileInputs.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojResolveAssemblyReference.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CoreCompileInputs.cache
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\sjaratu\Desktop\PiattaformaGioco (1)\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\Fabian\Desktop\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+E:\Scuola\tdp\PiattaformaGioco\PiattaformaGioco\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll.config
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.dll
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\WebServiceGame.pdb
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\GameLibrary.dll
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\GameLibrary.pdb
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.dll
+E:\Scuola\tdp\PiattaformaGioco\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\GameLibrary.dll
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\giova\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\GameLibrary.dll
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\Fabian\Desktop\Nuova cartella\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\WebServiceGame.dll.config
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\WebServiceGame.dll
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\GameLibrary.dll
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\GameLibrary.pdb
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\obj\Debug\WebServiceGame.csprojAssemblyReference.cache
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\obj\Debug\WebServiceGame.csproj.CopyComplete
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\obj\Debug\WebServiceGame.dll
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\obj\Debug\WebServiceGame.pdb
+C:\Users\Fabian\Desktop\RPS\WebServiceGame\obj\Debug\WebServiceGame.csproj.CoreCompileInputs.cache
