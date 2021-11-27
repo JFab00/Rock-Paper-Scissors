@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login & Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css?2" />
+    <script>
+
+        // funzione che fa il login al server
+        function Login() {
+            var xhr = new XMLHttpRequest();
+            //  oggetto che verrà passato ai controllers tramite il metodo POST, contiene l'username e la password che l'utente ha inserito
+            var obj = { "username": document.getElementById("username").value, "password": document.getElementById("password").value };
+            var param = JSON.stringify(obj);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    // se esiste un account con l'username che l'utente ha scritto nell'input allora crea il cookie che verrà utilizzato in index.html e lo ridireziona lì
+                    if (xhr.responseText == "true") {
+                        document.cookie = "username = " + document.getElementById("username").value;
+                        Redirect();
+                    }
+                    // se invece non esiste un account con quel nome (o con la password sbagliata) allora "Something went wrong... Try again"
+                    else if (xhr.responseText == "false")
+                        document.getElementById("message").innerHTML = "Something went wrong... Try again";
+
+                }
+            }
+            xhr.open('POST', 'https://localhost:44396/api/rps/login/', true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(param);
+        }
+
+        // funzione per il register
+        function Register() {
+            var xhr = new XMLHttpRequest();
+            //  oggetto che verrà passato ai controllers tramite il metodo POST, contiene tutti i valori che l'utente ha inserito
+            var obj = { "surname": document.getElementById("surname").value, "name": document.getElementById("name").value, "username": document.getElementById("usernameReg").value, "password": document.getElementById("passwordReg").value };
+            var param = JSON.stringify(obj);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    // stampo la risposta che viene data dai controllers
+                    document.getElementById("regMessage").innerHTML = xhr.responseText;
+                }
+            }
+            xhr.open('POST', 'https://localhost:44396/api/rps/register/', true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(param);
+        }
+
+        function Redirect() {
+            window.location.href = "index.html";
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div class="center">
+        <div class="left">
+            <h2>Log In</h2>
+            <input id="username" type="text" placeholder="username" autocomplete="off"/>
+            <input id="password" type="password" placeholder="password" autocomplete="off"/>
+            <input id="login" type="button" value="Log in" onclick="Login()" />
+            <p id="message"></p>
+        </div>
+        <div class="right">
+            <h2>Register</h2>
+            <input id="surname" type="text" placeholder="surname"/>
+            <input id="name" type="text" placeholder="name"/>
+            <input id="usernameReg" type="text" placeholder="username"/>
+            <input id="passwordReg" type="password" placeholder="password"/>
+            <input id="register" type="button" value="Register" onclick="Register()" />
+            <p id="regMessage"></p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+E:\Scuola\tdp\RPS - Copy\GameLibrary\bin\Release\GameLibrary.dll
+E:\Scuola\tdp\RPS - Copy\GameLibrary\bin\Release\GameLibrary.pdb
+E:\Scuola\tdp\RPS - Copy\GameLibrary\obj\Release\GameLibrary.csproj.CoreCompileInputs.cache
+E:\Scuola\tdp\RPS - Copy\GameLibrary\obj\Release\GameLibrary.dll
+E:\Scuola\tdp\RPS - Copy\GameLibrary\obj\Release\GameLibrary.pdb

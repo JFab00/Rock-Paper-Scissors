@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RPS</title>
+    <link rel="stylesheet" type="text/css" href="style.css?4" />
+    <script>
+        var varTimer1;
+        var varTimer2;
+
+        // se l'utente non è loggato allora lo ridireziono alla pagina login
+        if (document.cookie.indexOf("username") == -1)
+            window.location.href = "login.html";
+
+        function GetMove(move) {
+            // disabilitò i pulsanti
+            document.getElementById("sasso").disabled = true;
+            document.getElementById("carta").disabled = true;
+            document.getElementById("forbici").disabled = true;
+            document.getElementById("sasso").style.backgroundImage = "Resources/rockB.png";
+            document.getElementById("carta").style.backgroundImage = "Resources/paperB.png";
+            document.getElementById("forbici").style.backgroundImage = "Resources/scissorsB.png";
+            //console.log(move);
+            var xhr = new XMLHttpRequest();
+            var u = getCookie("username");
+            // aggiungo la mossa e il nome dell'utente dentro le liste
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    document.getElementById("gameStatus").innerHTML = "Waiting for opponent's response...";
+                    // do il via al timer
+                    varTimer1 = setInterval(timer, 500);
+                }
+            }
+            xhr.open('GET', 'https://localhost:44396/api/rps/getMove/' + move + '/' + u, true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+        }
+
+
+        
+        //  Incremento il numero di partite vinte e di partite giocate
+        function WinIncrement() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://localhost:44396/api/rps/winIncrement/' + utente["Username"], true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+        }
+
+        // incremento il numero di partite giocate
+        function TotMIncrement() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://localhost:44396/api/rps/totMIncrement/' + utente["Username"], true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+        }
+
+        // funzione presa da internet che controlla se l'oggetto è vuoto
+        function isEmpty(obj) {
+            for (var key in obj) {
+                if (obj.hasOwnProperty(key))
+                    return false;
+            }
+            return null;
+        }
+
+        // il timer che fa la magia
+        function timer() {
+            var xhr = new XMLHttpRequest();
+            var u = getCookie("username");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    // prende i dettagli della partita
+                    var match = JSON.parse(xhr.responseText);
+
+                    if (match["MovesList"].length == 2) {
+                        var xhr2 = new XMLHttpRequest();
+                        xhr2.onreadystatechange = function () {
+                            if (xhr2.readyState == 4) {
+                                // aggiungo l'utente che ha vinto la round dentro l'oggetto di tipo GameUser che si trova dentro l'oggetto match
+                                match["Winner"] = JSON.parse(xhr2.responseText);
+
+                                // fermo il timer
+                                clearInterval(timer);         // timer.Enabled = false;
+
+                                // controllo che l'oggetto non sia vuoto, se è vuoto vuol dire che hanno fatto pareggio
+                                if (isEmpty(match["Winner"]) == null) {
+                                    document.getElementById("gameStatus").innerHTML = "Tie!";
+                                    clearInterval(varTimer1);
+                                    // do il via al secondo timer
+                                    varTimer2 = setInterval(timerRisultato, 5000);
+                                }
+
+                                // controllo chi è l'utente che ha vinto
+                                else if (match["Winner"].Username == utente["Username"] && (utente["Points"] != 3) && (nemico["Points"] != 3)) {
+                                    document.getElementById("gameStatus").style.color = "green";
+                                    document.getElementById("gameStatus").innerHTML = "You Won!";
+                                    // incremento il numero di punti dell'utente che ha vinto
+                                    utente["Points"] += 1;
+                                    clearInterval(varTimer1);
+                                    varTimer2 = setInterval(timerRisultato, 5000);
+                                }
+                                else if (match["Winner"].Username == nemico["Username"] && (utente["Points"] != 3) && (nemico["Points"] != 3)) {
+                                    document.getElementById("gameStatus").style.color = "red";
+                                    document.getElementById("gameStatus").innerHTML = "You lost!";
+                                    nemico["Points"] += 1;
+                                    clearInterval(varTimer1);
+                                    varTimer2 = setInterval(timerRisultato, 5000);
+                                }
+
+                                // se uno dei 2 è arrivato a 3 punti, allora ha vinto
+                                if ((utente["Points"] == 3) && (nemico["Points"] != 3)) {
+                                    document.getElementById("gameStatus").style.color = "green";
+                                    document.getElementById("gameStatus").innerHTML = "Hai vinto, sei quasi come Cadel Evans!";
+                                    // Incremento il numero di partite vinte e partite giocate
+                                    WinIncrement();
+                                    utente["Win_match"] += 1;
+                                    utente["Total_match_played"] += 1;
+                                    varTimer2 = setInterval(timerRisultato, 5000);
+                                }
+                                else if ((utente["Points"] != 3) && (nemico["Points"] == 3)) {
+                                    document.getElementById("gameStatus").style.color = "red";
+                                    document.getElementById("gameStatus").innerHTML = "Potevi e dovevi far meglio...";
+                                    // Incremento il numero di partite giocate
+                                    TotMIncrement();
+                                    utente["Total_match_played"] += 1;
+                                    varTimer2 = setInterval(timerRisultato, 5000);
+                                }
+                                // stampo lo score della partita
+                                document.getElementById("score").innerHTML = utente["Points"] + " - " + nemico["Points"];
+                            }
+                        }
+                        xhr2.open('GET', 'https://localhost:44396/api/rps/gameWinner/' + utente["Username"], true);
+                        xhr2.setRequestHeader("Content-type", "application/json; charset=utf-8");
+                        xhr2.send(null);
+                    }
+                }
+            }
+            xhr.open('GET', 'https://localhost:44396/api/rps/checkGame/' + u, true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+        }
+
+        // il secondo timer che fa le magie
+        function timerRisultato() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+                    // prendo i dettagli della partita
+                    var match = JSON.parse(xhr.responseText);
+
+                    // se uno dei due utenti è arrivato a tre punti, allora azzero il punteggio e lo ridireziono alla pagina iniziale
+                    if ((utente["Points"] == 3) || (nemico["Points"] == 3)) {
+                        utente["Points"] = 0;
+                        nemico["Points"] = 0;
+                        isPlayingOff(utente["Username"]);
+                        isPlayingOff(nemico["Username"]);
+                        window.location.href = "index.html";
+                    }
+
+                    //      abilità pulsanti
+                    document.getElementById("sasso").disabled = false;
+                    document.getElementById("carta").disabled = false;
+                    document.getElementById("forbici").disabled = false;
+                    document.getElementById("sasso").style.backgroundImage = "Resources/rock.png";
+                    document.getElementById("carta").style.backgroundImage = "Resources/paper.png";
+                    document.getElementById("forbici").style.backgroundImage = "Resources/scissors.png";
+
+                    match["Winner"] = null;
+                    document.getElementById("gameStatus").style.color = "black";
+                    document.getElementById("gameStatus").innerHTML = "Pick your weapon...";
+                    clearInterval(varTimer2);
+                    clearInterval(varTimer1);
+                }
+            }
+            xhr.open('GET', 'https://localhost:44396/api/rps/checkGame/' + utente["Username"], true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+            clearInterval(varTimer2);
+            clearInterval(varTimer1);
+        }
+
+        function isPlayingOff(username) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://localhost:44396/api/rps/isPlayingOff/'+ username, true);
+            xhr.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            xhr.send(null);
+        }
+
+        // funzione presa da internet che mi aiuta a prendere i valori dei cookie
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+
+    </script>
+</head>
+    <body>
+        <div class="gameInterface">
+            <div class="gameInterface-left">
+
+                <p id="user">User</p>
+                <p id="score">0 - 0</p>
+                <p id="enemy">Enemy</p>
+                <p id="gameStatus">Pick your weapon...</p>
+                <script>
+                    var utente = JSON.parse(getCookie("utente"));
+                    var nemico = JSON.parse(getCookie("nemico"));
+                    document.getElementById("user").innerHTML = utente["Username"];
+                    document.getElementById("enemy").innerHTML = nemico["Username"];
+                </script>
+            </div>
+            <input type="button" id="sasso" value="rock" onclick="GetMove('sasso')" />
+            <input type="button" id="carta" value="paper" onclick="GetMove('carta')" />
+            <input type="button" id="forbici" value="scissors" onclick="GetMove('forbici')" />
+        </div>
+    </body>
+</html>
