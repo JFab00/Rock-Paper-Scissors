@@ -7,7 +7,7 @@ Even if the project was to be made by a three-persons group, I have offered to m
 # Requirements
 
 The project could have been done in two ways, through C# or through JS (we first did the C# one, and later also did the JS one for a mark increase).  
-You could choose between SOAP and REST architecture, if I'm not wrong, we did both of them in REST (if I'm wrong then sorry, I don't really remember this stuff).  
+You could choose between SOAP and REST architecture, if I'm not wrong, we did both of the architectures (if I'm wrong then sorry, I don't really remember this stuff).  
 First of all, we had to create a login and register interface... If you didn't have an account then you had to register (by clicking on the "Register" label that was under the "Login" button)... when actually registering, the details were stored in an XML file that acted as a database...  
 After login, you would get redirected to the menu interface that had 3 buttons, PLAY, STATS and QUIT (the STATS one was a feature added by us just for fun).  
 When PLAY was clicked, it should add you to a queue till it finds you a player to play against with.
